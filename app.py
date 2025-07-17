@@ -14,23 +14,7 @@ with tab1:
     st.title("Employee Salary Prediction App")
 
    
-    input_dict = {
-        "age": 30,
-        "workclass": 4,
-        "fnlwgt": 200000,
-        "education": 10,
-        "educational-num": 10,
-        "marital-status": 2,
-        "occupation": 5,
-        "relationship": 1,
-        "race": 2,
-        "gender": 1,
-        "capital-gain": 0,
-        "capital-loss": 0,
-        "hours-per-week": 40,
-        "native-country": 15,
-        "age_group": 1  
-    }
+    input_dict = {"age": 30,"workclass": 4,"fnlwgt": 200000,"education": 10,"educational-num": 10,"marital-status": 2,"occupation": 5,"relationship": 1,"race": 2,"gender": 1,"capital-gain": 0,"capital-loss": 0,"hours-per-week": 40,"native-country": 15,"age_group": 1  }
 
     # Update inputs
     input_dict["age"] = st.slider("Age", 17, 75, 30)
